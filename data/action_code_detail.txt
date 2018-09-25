@@ -1,0 +1,36 @@
+group,code,text
+object,1,C: AmaralLogin
+object,2,C: CernerObtainToken
+object,3,C: CernerAuthenticate
+object,5,C: Login
+object,6,C: PatientList
+object,7,C: PatientDetail
+object,7,C: TMetry
+action,0,Error
+action,101,BeaconStatus
+action,201,Challenge
+action,202,Challenge Error
+action,203,Challenge Accepted
+action,204,Connecting
+action,205,Logged
+action,206,Logout
+action,301,Obtained
+action,302,Authenticating
+action,303,Authenticated
+action,401,Selected
+action,501,Help
+action,502,Load
+action,503,LoadError
+action,601,RefreshControl
+action,602,SelectPatient
+action,602,SelectPatientByName
+action,602,SelectPatientByRoomNumber
+action,602,SelectPatientNearby
+action,602,SelectPatientOptional("ByName")
+action,602,SelectPatientOptional("ByRoomNumber")
+action,602,SelectPatientOptional("NearBy")
+action,701,Answer
+action,702,ShowGroup
+action,703,EMRInfoHidden
+action,704,EMRInfoExpanded
+
